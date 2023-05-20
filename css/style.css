@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #35424a;
+  border-bottom: 1px solid peru;
+}
+nav section a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: white;
+}
+nav section h1 {
+  color: white;
+}
+span {
+  color: rgba(238, 118, 238, 0.808);
+}
+.active {
+  color: #a9508b;
+}
+main.img {
+  background-image: url(../img/showcase.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main h1,
+p {
+  margin: 0.6rem;
+}
+main.img h1 {
+  font-size: 2.5rem;
+}
+main.email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+  color: white;
+  padding: 0.8rem;
+}
+main.email input,
+button {
+  padding: 0.3rem;
+}
+main.email button {
+  border-radius: 5px;
+  background-color: rgb(226, 92, 68);
+  color: white;
+}
+main.email h1 {
+  font-size: 1.2rem;
+}
+section.design {
+  display: flex;
+  justify-content: center;
+}
+section.design article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+  line-height: 1.2rem;
+}
+section.design article h2 {
+  margin: 1rem;
+}
+section.design article img {
+  width: 70px;
+}
+footer {
+  text-align: center;
+  background-color: #35424a;
+  padding: 1rem;
+  color: white;
+  font-size: 1.2rem;
+}

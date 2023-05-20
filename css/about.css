@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #35424a;
+  border-bottom: 1px solid peru;
+}
+nav section a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: white;
+}
+nav section h1 {
+  color: white;
+}
+span {
+  color: rgba(238, 118, 238, 0.808);
+}
+.active {
+  color: #a9508b;
+}
+main.email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+  color: white;
+  padding: 0.8rem;
+}
+main.email h1 {
+  font-size: 1.2rem;
+}
+main.email input,
+button {
+  padding: 0.3rem;
+}
+main.email button {
+  border-radius: 5px;
+  background-color: rgb(226, 92, 68);
+  color: white;
+}
+main.text {
+  margin: 1.5rem;
+  display: flex;
+  gap: 1rem 3rem;
+}
+.aboutus article p {
+  line-height: 1.2rem;
+}
+main.text section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main.text section.aboutus {
+  flex: 3;
+}
+main.text section.what {
+  flex: 1;
+
+  /* justify-content: space-evenly; */
+
+  background-color: #35424a;
+  color: white;
+  padding: 1rem;
+}
+main.text section.what h1 {
+  margin-top: 1.5rem;
+}
+main.text section.aboutus h1 {
+  margin-bottom: 1rem;
+}
+main.text section.aboutus article.text-dark {
+  background-color: #35424a;
+  color: white;
+  padding: 1rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #35424a;
+  padding: 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
