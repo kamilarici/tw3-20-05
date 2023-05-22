@@ -17,6 +17,8 @@ nav section a {
 }
 nav section h1 {
   color: white;
+  font-size: 1.5rem;
+  margin-left: 2.2rem;
 }
 span {
   color: rgba(238, 118, 238, 0.808);
@@ -30,7 +32,8 @@ main.email {
   padding: 0.8rem;
 }
 main.email h1 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  margin-left: 2.5rem;
 }
 main.email input,
 button {
@@ -104,7 +107,7 @@ form {
 .ortakdiv {
   margin-top: 1rem;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
   gap: 2rem;
 }
