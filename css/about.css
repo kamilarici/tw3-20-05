@@ -62,6 +62,7 @@ main.text section.aboutus {
 }
 main.text section.what {
   flex: 1;
+  height: fit-content;
 
   /* justify-content: space-evenly; */
 

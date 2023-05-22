@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   background-color: #35424a;
-  border-bottom: 1px solid peru;
+  border-bottom: 2px solid peru;
+  align-items: center;
 }
 nav section a {
   text-decoration: none;
@@ -17,6 +19,7 @@ nav section a {
 }
 nav section h1 {
   color: white;
+  font-size: 1.8rem;
 }
 span {
   color: rgba(238, 118, 238, 0.808);
